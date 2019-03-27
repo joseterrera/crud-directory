@@ -1,0 +1,40 @@
+.tableList {
+    
+}
+.row {
+    display: table-row;
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    background: white;
+    &:nth-child(even) {
+        background-color: #f0f0f0
+      }
+      &:hover {
+          background: #aaa;
+          color: white;
+      }
+  }
+
+
+.column {
+    display: table-cell;
+    padding: 5px 10px;
+  
+  }
+  
+  .column.name {
+    width: 30%;
+  
+  }
+  .column.address {
+    width: 50%;
+  }
+  
+  .column.options {
+    text-align: center;
+  }
+  
+
+
+

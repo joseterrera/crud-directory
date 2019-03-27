@@ -1,0 +1,17 @@
+@import 'src/sass-fragments/_variables.module.scss';
+
+
+.deleteOption {
+    @extend .button;
+    width: 47%;
+    padding: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline;
+    background: white;
+    color: #0a1a3f;
+    border: 1px solid #272323;
+    &:hover {
+        background: #faff7b;
+    }
+  }
